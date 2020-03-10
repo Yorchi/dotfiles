@@ -1,0 +1,8 @@
+{
+	"autoimport": false,
+	"format_on_save": false,
+	"php_bin": "/usr/local/bin/php",
+	"psr2": true,
+	"readini": false,
+	"version": 1
+}

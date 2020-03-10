@@ -1,0 +1,82 @@
+{
+	"added_words":
+	[
+		"Laravel",
+		"mkdir",
+		"github",
+		"https",
+		"laravel",
+		"Ubuntu",
+		"ubuntu",
+		"Homebrew",
+		"mysql",
+		"Zend",
+		"webserver",
+		"Debian",
+		"Middleware",
+		"Hostname",
+		"refactored",
+		"namespace",
+		"refactor",
+		"serializer",
+		"validator",
+		"workflow"
+	],
+	"auto_indent": true,
+	"caret_style": "smooth",
+	"color_scheme": "Packages/rainglow/rainglow/Lichen (rainglow).tmTheme",
+	"dictionary": "Packages/User/Language – Spanish/Spanish.dic",
+	"draw_white_space": true,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".idea"
+	],
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"SublimeLinter",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Bookr",
+		"Eloqent",
+		"Homebrew's",
+		"Laracasts",
+		"Webtatic",
+		"Xcode",
+		"balrog",
+		"bookr",
+		"cd",
+		"homebrew",
+		"hostname",
+		"middleware",
+		"namespacing",
+		"numbers=off",
+		"php",
+		"phpunit",
+		"vagrant@homestead",
+		"yaml"
+	],
+	"line_padding_bottom": 12,
+	"line_padding_top": 12,
+	"phpunit-sublime-terminal": "iTerm",
+	"rulers":
+	[
+		80
+	],
+	"show_definitions": false,
+	"smart_indent": true,
+	"tabs_size": 4,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"use_simple_full_screen": true,
+	"word_wrap": true
+}

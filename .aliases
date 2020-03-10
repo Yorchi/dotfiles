@@ -1,0 +1,25 @@
+# php + laravel
+alias stop_php="brew services stop mysql@5.7 && valet stop"
+alias start_php="brew services start mysql@5.7 && valet start"
+alias tlog="tail -f -n 450 storage/logs/laravel*.log \
+  | grep -i -E \
+    '^\[\d{4}\-\d{2}\-\d{2} \d{2}:\d{2}:\d{2}\]|Next [\w\W]+?\:' \
+--color"
+alias artisan="php artisan"
+
+# git
+alias gac="git add -A && git commit -m"
+alias gs="git status -sb"
+alias gcb="git checkout -b"
+alias gl='git pull --prune'
+alias gp="git push origin HEAD"
+alias gpm="git push origin master"
+alias glm="git pull origin master"
+alias pull="git pull origin"
+alias gb="git branch"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gd='git diff --color | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r'
+
+#docker
+alias d='docker $*'
+alias d-c='docker-compose $*'
